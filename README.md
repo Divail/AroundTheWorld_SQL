@@ -1,3 +1,2 @@
 # AroundTheWorld_SQL
-Database for Tours 
-This database was designed for booking a tour to any part of the world with hotels, transport, and landmarks. Database has as Many-To-Many relationships as One-To-Many. A lot of triggers test database so no error would accure.
+Database is designed for booking tours with an opportunity to book hotels, transport, and sightseeing. Database has Many-To-Many relationships as well as One-To-Many. A lot of triggers set up to test database.

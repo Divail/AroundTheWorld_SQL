@@ -9,7 +9,7 @@ create table Employee
 id int identity( 1,1 ) Primary key not null,
 Name nvarchar( 65 ) not null check (Name<>''),
 Surname nvarchar( 50 ) not null check (Surname<>''),
-Sallary nvarchar ( 50 ) not null check (Sallary<>''),
+Salary nvarchar ( 50 ) not null check (Salary<>''),
 Phone nvarchar( 50 ) Unique not null check (Phone<>''),
 Email nvarchar( 50 ) Unique not null check (Email<>''),
 DateEmployement date not null check (DateEmployement <= GETDATE()),
@@ -226,11 +226,6 @@ insert into Sights
 values ('Old Elbe Tunnel', 'N', null, null, 6)
 insert into Sights
 values ('Hamburg History Museum', 'Y', 50 , null, 6)
-
-insert into Sights
-values ('Appian Way in Rome', 'N', null, null, 7)
-insert into Sights
-values ('Borghese Gallery', 'Y', 50 , null, 7)
 
 insert into Sights
 values ('Appian Way in Rome', 'N', null, null, 7)

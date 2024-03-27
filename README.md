@@ -1,5 +1,5 @@
 # AroundTheWorld_SQL
-This SQL code defines the schema for a database named "AroundTheWorld" that seems to be related to organizing tours for tourists visiting various countries and cities. Let's break down the description of the tables and their relationships:
+This SQL code defines the schema for a database named "AroundTheWorld" that is used for organizing tours for tourists visiting various countries and cities.
 
     Table: Employee
         Contains information about the employees involved in the organization.
